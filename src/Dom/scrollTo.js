@@ -35,3 +35,5 @@ function scrollTo(to, duration) {
             scrollTo(to, duration - 16);
         });
 }
+
+module.exports = scrollTo;

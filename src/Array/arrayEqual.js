@@ -13,3 +13,5 @@ function arrayEqual(arr1, arr2) {
     }
     return true;
 }
+
+module.exports = arrayEqual;

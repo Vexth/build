@@ -20,3 +20,5 @@ function windowResize(downCb, upCb) {
         }
     });
 }
+
+module.exports = windowResize;

@@ -16,3 +16,6 @@ const throttle = require('./throttle');
 function debounce(delay, atBegin, callback) {
     return callback === undefined ? throttle(delay, atBegin, false) : throttle(delay, callback, atBegin !== false);
 };
+
+
+module.exports = debounce;

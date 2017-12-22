@@ -15,7 +15,7 @@ module.exports = {
     output: {
         filename: `bulid.min.js`,
         path: path.resolve(rootPath, 'bulid'),
-        library: `bulid`,
+        library: `Vexth`,
         libraryTarget: "umd"
     },
     module: {

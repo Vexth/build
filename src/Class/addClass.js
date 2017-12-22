@@ -10,3 +10,5 @@ function addClass(ele, cls) {
         ele.className += ' ' + cls;
     }
 }
+
+module.exports = addClass;

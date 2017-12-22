@@ -12,3 +12,5 @@ function Trim(str, is_global) {
     }
     return result;
 }
+
+module.exports = Trim;

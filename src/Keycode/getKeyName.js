@@ -114,3 +114,6 @@ function getKeyName(keycode) {
         return '';
     }
 };
+
+
+module.exports = getKeyName;

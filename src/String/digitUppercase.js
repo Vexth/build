@@ -34,3 +34,5 @@ function digitUppercase(n) {
         .replace(/(零.)+/g, '零')
         .replace(/^整$/, '零元整');
 };
+
+module.exports = digitUppercase;

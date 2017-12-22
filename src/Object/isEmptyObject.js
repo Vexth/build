@@ -9,3 +9,6 @@ function isEmptyObject(obj) {
         return false
     return !Object.keys(obj).length
 }
+
+
+module.exports = isEmptyObject;

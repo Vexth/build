@@ -16,3 +16,5 @@ function group(array, subGroupLength) {
 
     return newArray;
 }
+
+module.exports = group;

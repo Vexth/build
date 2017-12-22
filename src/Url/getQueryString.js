@@ -13,3 +13,5 @@ function getQueryString(name) {
     }
     return null;
 }
+
+module.exports = getQueryString;

@@ -23,3 +23,5 @@ function getExplore() {
     if (sys.safari) return ('Safari: ' + sys.safari)
     return 'Unkonwn'
 }
+
+module.exports = getExplore;

@@ -17,3 +17,5 @@ function offset(ele) {
     };
     return pos;
 }
+
+module.exports = offset;

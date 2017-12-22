@@ -20,3 +20,5 @@ function formatRemainTime(endTime) {
     }
     return d + "天 " + h + "小时 " + m + "分钟 " + s + "秒";
 }
+
+module.exports = formatRemainTime;

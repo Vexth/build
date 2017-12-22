@@ -19,3 +19,5 @@ function stringfyQueryString(obj) {
     }
     return pairs.join('&');
 }
+
+module.exports = stringfyQueryString;

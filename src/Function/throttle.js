@@ -73,3 +73,6 @@ function throttle(delay, noTrailing, callback, debounceMode) {
     // Return the wrapper function.
     return wrapper;
 };
+
+
+module.exports = throttle;

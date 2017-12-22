@@ -18,3 +18,5 @@ function formatPassTime(startTime) {
     if (min) return min + "分钟前"
     else return '刚刚'
 }
+
+module.exports = formatPassTime;
