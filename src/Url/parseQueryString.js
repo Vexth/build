@@ -1,7 +1,7 @@
 /**
  * 
  * @desc   url参数转对象
- * @param  {String} url  default: window.location.href
+ * @param  {String} url
  * @return {Object} 
  */
 function parseQueryString(url) {
