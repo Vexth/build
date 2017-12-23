@@ -28,7 +28,9 @@
 **Cookie**
 
 [setCookie](https://github.com/Vexth/build/blob/master/src/Cookie/setCookie.js): 设置Cookie
+
 [getCookie](https://github.com/Vexth/build/blob/master/src/Cookie/getCookie.js): 根据name读取cookie
+
 [removeCookie](https://github.com/Vexth/build/blob/master/src/Cookie/removeCookie.js): 根据name删除cookie
 
 **Device**
@@ -104,5 +106,7 @@
 **Url**
 
 [getQueryString](https://github.com/Vexth/build/blob/master/src/Url/getQueryString.js): 获取url参数
+
 [parseQueryString](https://github.com/Vexth/build/blob/master/src/Url/parseQueryString.js): url参数转对象
+
 [stringfyQueryString](https://github.com/Vexth/build/blob/master/src/Url/stringfyQueryString.js): 对象序列化
