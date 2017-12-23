@@ -13,7 +13,7 @@
 
 **Array**
 
-[arrayEqual](https://github.com/Vexth/build/blob/master/src/Array/arrayEqual.js): 判断两个数组是否相等
+_[arrayEqual](https://github.com/Vexth/build/blob/master/src/Array/arrayEqual.js): 判断两个数组是否相等
 
 [group](https://github.com/Vexth/build/blob/master/src/Array/group.js): 根据个数分割数组，并转化成多个数组
 

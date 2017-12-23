@@ -1,7 +1,8 @@
 /**
  * 
  * @desc   取出字符串中所有的空格， 第二个参数为：g
- * @param  {Object} obj 
+ * @param  {String} str 
+ * @param  {String} is_global 
  * @return {String}
  */
 function Trim(str, is_global) {
@@ -14,3 +15,4 @@ function Trim(str, is_global) {
 }
 
 module.exports = Trim;
+
