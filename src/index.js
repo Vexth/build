@@ -4,6 +4,7 @@
 // Array
 const arrayEqual = require('./Array/arrayEqual')
 const group = require('./Array/group')
+const arrayUnique = require('./Array/arrayUnique')
 
 // Class
 const addClass = require('./Class/addClass')
@@ -69,6 +70,7 @@ const getQueryString = require('./Url/getQueryString')
 module.exports = {
     arrayEqual,
     group,
+    arrayUnique,
 
     addClass,
     hasClass,

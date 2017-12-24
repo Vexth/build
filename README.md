@@ -17,6 +17,8 @@
 
 - [group](https://github.com/Vexth/build/blob/master/src/Array/group.js)：根据个数分割数组，并转化成多个数组
 
+- [arrayUnique](https://github.com/Vexth/build/blob/master/src/Array/arrayUnique.js)：数组去重
+
 **Class**
 
 - [hasClass](https://github.com/Vexth/build/blob/master/src/Class/hasClass.js)：判断元素是否有某个class
