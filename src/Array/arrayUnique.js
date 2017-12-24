@@ -1,3 +1,4 @@
+const isFilter = require('./isFilter')()
 /**
  * 
  * @desc 数组去重

@@ -17,6 +17,8 @@
 
 - [group](https://github.com/Vexth/build/blob/master/src/Array/group.js)：根据个数分割数组，并转化成多个数组
 
+- [isFilter](https://github.com/Vexth/build/blob/master/src/Array/isFilter.js)：让IE9以下的浏览器兼容Array.prototype.filter方法
+
 - [arrayUnique](https://github.com/Vexth/build/blob/master/src/Array/arrayUnique.js)：数组去重
 
 **Class**
