@@ -1,6 +1,6 @@
 /**
  * 
- * @desc   获取url参数
+ * @desc   根据url中参数name获取其参数
  * @param  {String} name 
  * @return {String}
  */

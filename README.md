@@ -109,7 +109,7 @@
 
 **Url**
 
-- [getQueryString](https://github.com/Vexth/build/blob/master/src/Url/getQueryString.js)：获取url参数
+- [getQueryString](https://github.com/Vexth/build/blob/master/src/Url/getQueryString.js)：根据url中name获取其参数
 
 - [parseQueryString](https://github.com/Vexth/build/blob/master/src/Url/parseQueryString.js)：url参数转对象
 
