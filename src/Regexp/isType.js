@@ -5,8 +5,8 @@ function isPrototype(data) {
 /**
  * 
  * @desc   判断是否为Array
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isArray(data) {
 	return isPrototype(data) === '[object array]';
@@ -15,8 +15,8 @@ function isArray(data) {
 /**
  * 
  * @desc   判断是否为Array
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isJSON(data) {
 	return isPrototype(data) === '[object object]';
@@ -24,8 +24,8 @@ function isJSON(data) {
 /**
  * 
  * @desc   判断是否为Function
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isFunction(data) {
 	return isPrototype(data) === '[object function]';
@@ -33,8 +33,8 @@ function isFunction(data) {
 /**
  * 
  * @desc   判断是否为String
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isString(data) {
 	return isPrototype(data) === '[object string]';
@@ -42,8 +42,8 @@ function isString(data) {
 /**
  * 
  * @desc   判断是否为Number
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isNumber(data) {
 	return isPrototype(data) === '[object number]';
@@ -51,8 +51,8 @@ function isNumber(data) {
 /**
  * 
  * @desc   判断是否为Undefined
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isUndefined(data) {
 	return isPrototype(data) === '[object undefined]';
@@ -60,8 +60,8 @@ function isUndefined(data) {
 /**
  * 
  * @desc   判断是否为Null
- * @param  { }  data
- * @return {String} 
+ * @param  {any}  data
+ * @return {Boolean} 
  */
 function isNull(data) {
 	return isPrototype(data) === '[object null]';
