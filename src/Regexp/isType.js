@@ -1,10 +1,3 @@
-/**
- * 
- * @desc   判断属性
- * @param  { }  data
- * @return {String} 
- */
-
 function isPrototype(data) {
 	return Object.prototype.toString.call(data).toLowerCase();
 };
