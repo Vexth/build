@@ -5,7 +5,9 @@
  * @return {String} 
  */
 
-isPrototype(data) => Object.prototype.toString.call(data).toLowerCase();
+function isPrototype(data) {
+	return Object.prototype.toString.call(data).toLowerCase();
+};
 
 /**
  * 
@@ -13,7 +15,9 @@ isPrototype(data) => Object.prototype.toString.call(data).toLowerCase();
  * @param  { }  data
  * @return {String} 
  */
-isArray(data) => isPrototype(data) === '[object array]';
+function isArray(data) {
+	return isPrototype(data) === '[object array]';
+}
 
 /**
  * 
@@ -21,48 +25,54 @@ isArray(data) => isPrototype(data) === '[object array]';
  * @param  { }  data
  * @return {String} 
  */
-isJSON(data) => isPrototype(data) === '[object object]';
-
+function isJSON(data) {
+	return isPrototype(data) === '[object object]';
+}
 /**
  * 
  * @desc   判断是否为Function
  * @param  { }  data
  * @return {String} 
  */
-isFunction(data) => isPrototype(data) === '[object function]';
-
+function isFunction(data) {
+	return isPrototype(data) === '[object function]';
+}
 /**
  * 
  * @desc   判断是否为String
  * @param  { }  data
  * @return {String} 
  */
-isString(data) => isPrototype(data) === '[object string]';
-
+function isString(data) {
+	return isPrototype(data) === '[object string]';
+}
 /**
  * 
  * @desc   判断是否为Number
  * @param  { }  data
  * @return {String} 
  */
-isNumber(data) => isPrototype(data) === '[object number]';
-
+function isNumber(data) {
+	return isPrototype(data) === '[object number]';
+}
 /**
  * 
  * @desc   判断是否为Undefined
  * @param  { }  data
  * @return {String} 
  */
-isUndefined(data) => isPrototype(data) === '[object undefined]';
-
+function isUndefined(data) {
+	return isPrototype(data) === '[object undefined]';
+}
 /**
  * 
  * @desc   判断是否为Null
  * @param  { }  data
  * @return {String} 
  */
-isNull(data) => isPrototype(data) === '[object null]';
-
+function isNull(data) {
+	return isPrototype(data) === '[object null]';
+}
 
 module.exports = {
     isArray,
