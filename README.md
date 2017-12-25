@@ -87,6 +87,8 @@
 
 - [isUrl](https://github.com/Vexth/build/blob/master/src/Regexp/isUrl.js)：判断是否为URL地址
 
+- [isType](https://github.com/Vexth/build/blob/master/src/Regexp/isType.js): ```isArray```;```isJSON```;```isFunction```;```isString```;```isNumber```;```isUndefined```;```isNull```的判断
+
 **String**
 
 - [digitUppercase](https://github.com/Vexth/build/blob/master/src/String/digitUppercase.js)：现金额转大写

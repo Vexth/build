@@ -48,6 +48,16 @@ const isEmail = require('./Regexp/isEmail')
 const isIdCard = require('./Regexp/isIdCard')
 const isPhoneNum = require('./Regexp/isPhoneNum')
 const isUrl = require('./Regexp/isUrl')
+const {
+    isArray,
+    isJSON,
+    isFunction,
+    isString,
+    isNumber,
+    isUndefined,
+    isNull
+} = require('./Regexp/isType')
+
 
 // String
 const digitUppercase = require('./String/digitUppercase')
@@ -106,6 +116,13 @@ module.exports = {
     isIdCard,
     isPhoneNum,
     isUrl,
+    isArray,
+    isJSON,
+    isFunction,
+    isString,
+    isNumber,
+    isUndefined,
+    isNull,
 
     digitUppercase,
     trim,
