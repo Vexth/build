@@ -1,5 +1,7 @@
 # build
 
+- 您的`star`是我最大的动力，欢迎`star`😆😆😆😆😆
+
 在html文件里调用方式
 ```html
 <script src="bulid.min.js"></script>
@@ -123,4 +125,6 @@
 
 - [isPromise](https://github.com/Vexth/build/blob/master/src/Promise/Promise.js)：给不支持``Promise``的浏览器增加此方法
 
-### xxxxxx
+# 说明
+
+- 目前浏览器直接使用的还没有打包生成
