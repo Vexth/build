@@ -4,8 +4,10 @@
 // Array
 const arrayEqual = require('./Array/arrayEqual')
 const group = require('./Array/group')
-const isFilter = require('./Array/isFilter')
 const arrayUnique = require('./Array/arrayUnique')
+const isFilter = require('./Array/isFilter')
+const isForEach = require('./Array/isForEach')
+const isMap = require('./Array/isMap')
 
 // Class
 const addClass = require('./Class/addClass')
@@ -79,13 +81,15 @@ const stringfyQueryString = require('./Url/stringfyQueryString')
 const getQueryString = require('./Url/getQueryString')
 
 // Promise
-const isPromise = require('./Promise/Promise')
+const isPromise = require('./Promise/isPromise')
 
 module.exports = {
     arrayEqual,
     group,
     isFilter,
     arrayUnique,
+    isForEach,
+    isMap,
 
     addClass,
     hasClass,

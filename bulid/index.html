@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script src="bulid.min.js"></script>
+<script>
+    var os = Vexth.isPromise;
+    console.log(os)
+    var arr = [1,2,3]
+    arr.map(function(res){
+        console.log(res)
+    })
+
+    new Promise(function(resolve, reject){
+        resolve('111')
+    }).then(function(data){console.log(data)})
+
+</script>
+</body>
+</html>
