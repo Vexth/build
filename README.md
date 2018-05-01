@@ -118,3 +118,9 @@
 - [parseQueryString](https://github.com/Vexth/build/blob/master/src/Url/parseQueryString.js)：url参数转对象
 
 - [stringfyQueryString](https://github.com/Vexth/build/blob/master/src/Url/stringfyQueryString.js)：对象序列化
+
+**Promise**
+
+- [isPromise](https://github.com/Vexth/build/blob/master/src/Promise/Promise.js)：给不支持``Promise``的浏览器增加此方法
+
+### xxxxxx

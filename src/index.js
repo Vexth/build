@@ -57,6 +57,7 @@ const {
     isUndefined,
     isNull
 } = require('./Regexp/isType')
+const isNative = require('./Regexp/isNative')
 
 
 // String
@@ -77,6 +78,8 @@ const parseQueryString = require('./Url/parseQueryString')
 const stringfyQueryString = require('./Url/stringfyQueryString')
 const getQueryString = require('./Url/getQueryString')
 
+// Promise
+const isPromise = require('./Promise/Promise')
 
 module.exports = {
     arrayEqual,
@@ -123,6 +126,7 @@ module.exports = {
     isNumber,
     isUndefined,
     isNull,
+    isNative,
 
     digitUppercase,
     trim,
@@ -137,4 +141,6 @@ module.exports = {
     parseQueryString,
     stringfyQueryString,
     getQueryString,
+
+    isPromise,
 }
