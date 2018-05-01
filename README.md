@@ -89,6 +89,8 @@
 
 - [isType](https://github.com/Vexth/build/blob/master/src/Regexp/isType.js): ```isArray```;```isJSON```;```isFunction```;```isString```;```isNumber```;```isUndefined```;```isNull```的判断
 
+- [isNative](https://github.com/Vexth/build/blob/master/src/Regexp/isNative.js)：查看浏览器的对于API的支持
+
 **String**
 
 - [digitUppercase](https://github.com/Vexth/build/blob/master/src/String/digitUppercase.js)：现金额转大写
