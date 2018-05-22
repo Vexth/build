@@ -6,7 +6,7 @@
  * @return {}
  */
 
-function isFilter() {
+module.exports = function () {
 	if (!Array.prototype.filter) {
 		console.log("关爱码农，远离IE","color:red")
 		Array.prototype.filter = function(fun /* , thisArg*/) {
@@ -40,5 +40,3 @@ function isFilter() {
 		};
 	}
 };
-
-module.exports = isFilter;

@@ -5,8 +5,7 @@
  * @param {} 
  * @return {}
  */
-
-function isForEach() {
+module.exports = function () {
     if (!Array.prototype.forEach) {
 
         Array.prototype.forEach = function(callback, thisArg) {
@@ -45,6 +44,4 @@ function isForEach() {
             }
         };
     }
-}
-
-module.exports = isForEach;
+};

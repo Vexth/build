@@ -16,6 +16,9 @@
     "webpack": "^3.10.0"
   },
   "dependencies": {
+    "console-polyfill": "^0.3.0",
+    "es3ify-webpack-plugin": "^0.0.1",
+    "es5-shim": "^4.5.10",
     "uglifyjs-webpack-plugin": "^1.1.3"
   }
 }

@@ -1,13 +1,19 @@
 /**
  * @desc webpack打包入口文件
  */
+require('es5-shim');
+require('es5-shim/es5-sham');
+require('console-polyfill');
 // Array
 const arrayEqual = require('./Array/arrayEqual')
 const group = require('./Array/group')
 const arrayUnique = require('./Array/arrayUnique')
-const isFilter = require('./Array/isFilter')
-const isForEach = require('./Array/isForEach')
-const isMap = require('./Array/isMap')
+// const isFilter = require('./Array/isFilter')
+require('./Array/isFilter')()
+// const isForEach = require('./Array/isForEach')
+require('./Array/isForEach')()
+// const isMap = require('./Array/isMap')
+require('./Array/isMap')()
 
 // Class
 const addClass = require('./Class/addClass')
@@ -81,7 +87,8 @@ const stringfyQueryString = require('./Url/stringfyQueryString')
 const getQueryString = require('./Url/getQueryString')
 
 // Promise
-const isPromise = require('./Promise/isPromise')
+// const isPromise = require('./Promise/isPromise')
+require('./Promise/isPromise')()
 
 module.exports = {
     arrayEqual,

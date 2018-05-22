@@ -1,23 +1,24 @@
 const path = require('path');
 const webpack = require('webpack');
+// const es3ifyPlugin = require('es3ify-webpack-plugin');
 
 const rootPath = path.resolve(__dirname, './')
 
 module.exports = {
-    // entry: "./src/index.js",
+    entry: "./bulid/index.js",
 
-    // output: {
-    //     path: path.resolve(__dirname, "bulid"),
-    //     filename: "bulid.js"
-    // },
-
-    entry: path.resolve(rootPath, 'src', 'index.js'),
     output: {
-        filename: `bulid.min.js`,
-        path: path.resolve(rootPath, 'bulid'),
-        library: `Vexth`,
-        libraryTarget: "umd"
+        path: path.resolve(__dirname, "bulid"),
+        filename: "bulid-v2.min.js"
     },
+
+    // entry: path.resolve(rootPath, 'src', 'index.js'),
+    // output: {
+    //     filename: `bulid.min.js`,
+    //     path: path.resolve(rootPath, 'bulid'),
+    //     // library: `Vexth`,
+    //     libraryTarget: "umd"
+    // },
     module: {
         rules: [{
             test: /\.js$/,
@@ -42,6 +43,7 @@ module.exports = {
                 reduce_vars: true,
             }
         })
+        // new es3ifyPlugin()
         // new webpack.optimize.UglifyJsPlugin()
     ]
 }

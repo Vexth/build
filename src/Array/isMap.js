@@ -6,7 +6,7 @@
  * @return {}
  */
 
-function isMap() {
+module.exports = function () {
     if (!Array.prototype.map) {
         Array.prototype.map = function(callback, thisArg) {
 
@@ -49,6 +49,4 @@ function isMap() {
             return A;
         };
     }
-}
-
-module.exports = isMap;
+};
