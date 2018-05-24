@@ -1,15 +1,16 @@
 # build
 
 - 您的`star`是我最大的动力，欢迎`star`😆😆😆😆😆
+- 由于增加了一下不能兼容IE低版本的方法，目前打包好的代码是没有的，请使用各个JavaScript文件中的方法
 
-在html文件里调用方式
-```html
-<script src="bulid.min.js"></script>
-<script>
-	var os = Vexth.getOS();
-	console.log(os);
-</script>
-```
+~~在html文件里调用方式
+~~```html
+~~<script src="bulid.min.js"></script>
+~~<script>
+~~	var os = Vexth.getOS();
+~~	console.log(os);
+~~</script>
+~~```
 
 对于API调用的说明：
 
@@ -62,6 +63,8 @@
 - [debounce](https://github.com/Vexth/build/blob/master/src/Function/debounce.js)：函数防抖 
 
 - [throttle](https://github.com/Vexth/build/blob/master/src/Function/throttle.js)：函数节流
+
+- [$inject](https://github.com/Vexth/build/blob/master/src/Function/inject.js)：依赖注入
 
 **Keycode**
 
