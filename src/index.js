@@ -8,6 +8,7 @@
 const arrayEqual = require('./Array/arrayEqual')
 const group = require('./Array/group')
 const arrayUnique = require('./Array/arrayUnique')
+const compact = require('./Array/compact')
 // const isFilter = require('./Array/isFilter')
 // require('./Array/isFilter')()
 // const isForEach = require('./Array/isForEach')
@@ -87,6 +88,7 @@ module.exports = {
     group,
     // isFilter,
     arrayUnique,
+    compact,
     // isForEach,
     // isMap,
 
