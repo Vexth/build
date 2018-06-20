@@ -5,20 +5,20 @@ const webpack = require('webpack');
 const rootPath = path.resolve(__dirname, './')
 
 module.exports = {
-    entry: "./bulid/index.js",
+    // entry: "./bulid/index.js",
 
-    output: {
-        path: path.resolve(__dirname, "bulid"),
-        filename: "bulid-v2.min.js"
-    },
-
-    // entry: path.resolve(rootPath, 'src', 'index.js'),
     // output: {
-    //     filename: `bulid.min.js`,
-    //     path: path.resolve(rootPath, 'bulid'),
-    //     // library: `Vexth`,
-    //     libraryTarget: "umd"
+    //     path: path.resolve(__dirname, "bulid"),
+    //     filename: "bulid-v2.min.js"
     // },
+
+    entry: path.resolve(rootPath, 'src', 'index.js'),
+    output: {
+        filename: `bulid.min.js`,
+        path: path.resolve(rootPath, 'bulid'),
+        library: `Vexth`,
+        libraryTarget: "umd"
+    },
     module: {
         rules: [{
             test: /\.js$/,

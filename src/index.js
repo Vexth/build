@@ -1,19 +1,19 @@
 /**
  * @desc webpack打包入口文件
  */
-require('es5-shim');
-require('es5-shim/es5-sham');
-require('console-polyfill');
+// require('es5-shim');
+// require('es5-shim/es5-sham');
+// require('console-polyfill');
 // Array
 const arrayEqual = require('./Array/arrayEqual')
 const group = require('./Array/group')
 const arrayUnique = require('./Array/arrayUnique')
 // const isFilter = require('./Array/isFilter')
-require('./Array/isFilter')()
+// require('./Array/isFilter')()
 // const isForEach = require('./Array/isForEach')
-require('./Array/isForEach')()
+// require('./Array/isForEach')()
 // const isMap = require('./Array/isMap')
-require('./Array/isMap')()
+// require('./Array/isMap')()
 
 // Class
 const addClass = require('./Class/addClass')
@@ -48,7 +48,7 @@ const deepClone = require('./Object/deepClone')
 const isEmptyObject = require('./Object/isEmptyObject')
 
 // Random
-const randomColor = require('./Random/randomColor')
+const { randomColor, RGBToHex, hexToRGB } = require('./Random/randomColor')
 const randomNum = require('./Random/randomNum')
 
 // Regexp
@@ -56,15 +56,7 @@ const isEmail = require('./Regexp/isEmail')
 const isIdCard = require('./Regexp/isIdCard')
 const isPhoneNum = require('./Regexp/isPhoneNum')
 const isUrl = require('./Regexp/isUrl')
-const {
-    isArray,
-    isJSON,
-    isFunction,
-    isString,
-    isNumber,
-    isUndefined,
-    isNull
-} = require('./Regexp/isType')
+const isType = require('./Regexp/isType')
 const isNative = require('./Regexp/isNative')
 
 
@@ -88,15 +80,15 @@ const getQueryString = require('./Url/getQueryString')
 
 // Promise
 // const isPromise = require('./Promise/isPromise')
-require('./Promise/isPromise')()
+// require('./Promise/_Promise')()
 
 module.exports = {
     arrayEqual,
     group,
-    isFilter,
+    // isFilter,
     arrayUnique,
-    isForEach,
-    isMap,
+    // isForEach,
+    // isMap,
 
     addClass,
     hasClass,
@@ -124,19 +116,15 @@ module.exports = {
     isEmptyObject,
 
     randomColor,
+    RGBToHex,
+    hexToRGB,
     randomNum,
 
     isEmail,
     isIdCard,
     isPhoneNum,
     isUrl,
-    isArray,
-    isJSON,
-    isFunction,
-    isString,
-    isNumber,
-    isUndefined,
-    isNull,
+    isType,
     isNative,
 
     digitUppercase,
@@ -153,5 +141,5 @@ module.exports = {
     stringfyQueryString,
     getQueryString,
 
-    isPromise,
+    // isPromise,
 }

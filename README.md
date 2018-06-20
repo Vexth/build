@@ -2,6 +2,7 @@
 
 - 您的`star`是我最大的动力，欢迎`star`😆😆😆😆😆
 - 由于增加了一下不能兼容IE低版本的方法，目前打包好的代码是没有的，请使用各个JavaScript文件中的方法
+- 重新打包好的代码，减少代码体积，打包好代码中移除了下面删除的代码片段
 
 对于API调用的说明：
 
@@ -11,7 +12,7 @@
 
 - [group](https://github.com/Vexth/build/blob/master/src/Array/group.js)：根据个数分割数组，并转化成多个数组
 
-- [isFilter](https://github.com/Vexth/build/blob/master/src/Array/isFilter.js)：让IE9以下的浏览器兼容Array.prototype.filter方法
+- ~~[isFilter](https://github.com/Vexth/build/blob/master/src/Array/isFilter.js)：让IE9以下的浏览器兼容Array.prototype.filter方法~~
 
 - [arrayUnique](https://github.com/Vexth/build/blob/master/src/Array/arrayUnique.js)：数组去重
 
@@ -83,7 +84,7 @@
 
 - [isUrl](https://github.com/Vexth/build/blob/master/src/Regexp/isUrl.js)：判断是否为URL地址
 
-- [isType](https://github.com/Vexth/build/blob/master/src/Regexp/isType.js): ```isArray```;```isJSON```;```isFunction```;```isString```;```isNumber```;```isUndefined```;```isNull```的判断
+- [isType](https://github.com/Vexth/build/blob/master/src/Regexp/isType.js): 判断数据类型
 
 - [isNative](https://github.com/Vexth/build/blob/master/src/Regexp/isNative.js)：查看浏览器的对于API的支持
 
@@ -117,7 +118,7 @@
 
 **Promise**
 
-- [isPromise](https://github.com/Vexth/build/blob/master/src/Promise/Promise.js)：给不支持``Promise``的浏览器增加此方法
+- ~~[isPromise](https://github.com/Vexth/build/blob/master/src/Promise/Promise.js)：给不支持``Promise``的浏览器增加此方法~~
 
 # 说明
 
