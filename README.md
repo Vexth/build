@@ -16,6 +16,8 @@
 
 - [arrayUnique](https://github.com/Vexth/build/blob/master/src/Array/arrayUnique.js)：数组去重
 
+- [bifurcateBy](https://github.com/Vexth/build/blob/master/src/Array/bifurcateBy.js): 取出数组中，对象相同属性的对象
+
 **Class**
 
 - [hasClass](https://github.com/Vexth/build/blob/master/src/Class/hasClass.js)：判断元素是否有某个class
