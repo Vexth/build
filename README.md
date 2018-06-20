@@ -18,7 +18,7 @@
 
 - [bifurcateBy](https://github.com/Vexth/build/blob/master/src/Array/bifurcateBy.js): 取出数组中，对象相同属性的对象
 
--[compact](https://github.com/Vexth/build/blob/master/src/Array/compact.js)：去除不需要的元素
+- [compact](https://github.com/Vexth/build/blob/master/src/Array/compact.js)：去除不需要的元素
 
 **Class**
 
