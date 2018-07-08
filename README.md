@@ -124,6 +124,10 @@
 
 - ~~[isPromise](https://github.com/Vexth/build/blob/master/src/Promise/Promise.js)：给不支持``Promise``的浏览器增加此方法~~
 
+**Search**
+
+- [Search](https://github.com/Vexth/build/blob/master/src/Search/index.js)：增加前端模糊搜索方法
+
 # 说明
 
 - 目前浏览器直接使用的还没有打包生成
